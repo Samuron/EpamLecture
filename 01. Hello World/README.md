@@ -13,6 +13,9 @@ dotnet new sln -n HelloWorld
 dotnet new console -n HelloWorld.Core -o .\src\HelloWorld.Core
 dotnet sln add .\src\HelloWorld.Core
 
+dotnet add .\src\HelloWorld.Core\ package Microsoft.AspNetCore.Server.Kestrel
+dotnet add .\src\HelloWorld.Core\ package Microsoft.AspNetCore.Hosting
+
 ```
 
 ## Run project
