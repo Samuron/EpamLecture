@@ -1,0 +1,11 @@
+POST http://localhost:5000/api/expense HTTP/1.1
+content-type: application/json
+
+{
+    "amount": "10.0",
+    "category": "beer"
+}
+
+###
+
+GET http://localhost:5000/api/expense/1 HTTP/1.1
