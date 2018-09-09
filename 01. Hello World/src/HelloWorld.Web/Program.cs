@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 
 namespace HelloWorld.Web
 {
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
