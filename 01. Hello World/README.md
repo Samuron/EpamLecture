@@ -8,7 +8,7 @@ To create sample project run following commands:
 ```sh
 
 mkdir "01. HelloWorld"
-cd .\01. HelloWorld
+cd ".\01. HelloWorld"
 dotnet new sln -n HelloWorld
 dotnet new console -n HelloWorld.Core -o .\src\HelloWorld.Core
 dotnet sln add .\src\HelloWorld.Core
