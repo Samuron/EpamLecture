@@ -21,6 +21,6 @@ To run the project
 ```sh
 
 dotnet build
-dotnet sln add .\src\HelloWorld.Core
+dotnet run -p .\src\HelloWorld.Core
 
 ```
